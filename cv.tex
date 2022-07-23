@@ -1,0 +1,111 @@
+
+\documentclass[a4paper, 12pt, color, final]{moderncv}
+
+\moderncvstyle{classic}
+\definecolor{color0}{rgb}{0,0,0}
+\definecolor{color1}{rgb}{0.50,0.44,0.60}
+\definecolor{color2}{rgb}{0.55,0.55,0.55}
+
+\nopagenumbers{}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[scale=0.80]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+
+% personal data
+\name{Andrei}{Tsialiatka}
+\title{Software engineer}
+\address{Minsk}{Belarus}
+\email{steepashka1love@gmail.com}
+\social[linkedin]{atelyatko}
+\social[github]{letmecnsooit}
+
+\begin{document}
+\makecvtitle
+
+\section{Employment History}
+\cventry{September 2017 -- Present}{Software Developer}{Itransition Group}{Minsk}{}{}
+
+\section{Projects}
+
+% \cventry{2021--present}{HF}{}{}{}{
+% \begin{itemize}%
+% \item //Description
+% \item \textbf{Tools}: //Tools
+% \end{itemize}}
+
+\cventry{2020--2021}{Chromatography results processing}{}{}{}{
+\begin{itemize}%
+    \item A next-gen version of the original application which allows users to process and
+    control different steps and stages of chromatography results. The application
+    provides an ability to create plots for chromatography result peaks, apply integration
+    filters for peaks, do system suitability checks to verify the results of integration and
+    calibration steps, create user-specific workflows, apply permissions for users to give
+    an access to work on a specific area of processing.
+    \item \textbf{Tools}: ASP.NET Core 3.1, AWS (DocumentDB, S3), Docker, Angular 11, Typescript,
+    D3.js, Angular Material, Wijmo, Karma, Jasmine, SpecFlow.
+\end{itemize}}
+
+\cventry{2017--2020}{Healthcare assistant}{}{}{}{
+\begin{itemize}
+    \item A complex healthcare solution that is aimed at helping people with chronic
+    pain. Development includes several mobile applications, as well as separate web
+    application along with a range of custom RESTful APIs. Main features of the project:
+    \begin{itemize}
+        \item RTC communication (audio/video calling, text chatting across multiple platforms);
+        \item Activity tracker integration (Fitbit, Apple Health);
+        \item Assessment module that defines a custom course of actions for the patient;
+        \item Elaborate reporting/statistics modules for patients and counselors;
+        \item HIPAA compliance;
+    \end{itemize}
+    \item \textbf{Tools}: ASP.NET Web API 2, Angular 6, Bootstrap 3, Dapper ORM, TokBox, Kendo
+    UI, Telerik Reporting Tools, OData v4, C\# 7, TypeScript, Karma, Jasmine, Git.
+\end{itemize}}
+
+\cventry{2017--2020}{Utilization review processing}{}{}{}{
+\begin{itemize}
+    \item A service that provides prospective, concurrent and retrospective review of the
+    medical necessity of services. The project facilitates the timely and appropriate
+    treatment of injured employees while providing employers with greater financial
+    controls; Provides an ability to estimate the cost of physicians and nurses working
+    processes based on different UR cases criterias; Allows to generate a huge amount
+    of reports with different metrics and criterias. Provides an ability to determine state
+    workers compensation plans by using industry standard guidelines such as ACOEM
+    \& ODG. Permission-based engine to restrict users to have an access to different
+    application’s areas.
+    \item \textbf{Tools}: JetBrains Rider IDE, Git, Bitbucket, IIS 7, MS SQL Server, SQL Server Profiler,
+    SQL Server Management Studio, Postman, ASP.NET Web API 2, Entity Framework
+    6, OData v4, DocX, EPPlus, Telerik Reporting Tools, Autofac, NUnit, AngularJS 1.6,
+    KendoUI, Twitter Bootstrap 3, LESS, Webpack, npm, KendoUI, Babel, HTML5, CSS3,
+    Jasmine.
+\end{itemize}}
+
+\newpage
+
+\section{Education}
+\cvitem{2015--2019}{
+    \textbf{Belarussian State University of Informatics and Radioelectronics}; \newline
+    Faculty of Computer Systems and Networks; \newline
+    Software for Information Technologies; \newline
+    Bachelor's degree.
+}
+\cvitem{2019--2020}{
+    \textbf{Belarussian State University of Informatics and Radioelectronics}; \newline
+    Faculty of Computer-Aided Design; \newline
+    Labor Protection and Ergonomics; \newline
+    Master's degree.
+}
+
+\section{Skills}
+\subsection{Main:}
+\cvitem{}{ASP.NET Core, Angular, Azure, SQL, Git, NoSQL, Docker, AWS, React, TypeScript. }
+\subsection{Experience with:}
+\cvitem{}{TeamCity, Azure DevOps, Go, Python, \LaTeX. }
+
+\section{Languages}
+\cvitemwithcomment{English}{Advanced}{}
+\cvitemwithcomment{Belarusian}{Native speaker}{}
+\cvitemwithcomment{Russian}{Native speaker}{}
+
+\end{document}
